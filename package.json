@@ -2,14 +2,18 @@
     "name": "hytek-peek",
     "displayName": "HyTek Peek",
     "description": "HyTek line analyzer",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "publisher": "JanHybs",
     "icon": "images/logo2.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/janhybs/hytek-peek"
+    },
     "engines": {
         "vscode": "^1.66.0"
     },
     "categories": [
-        "Other"
+        "Formatters", "Visualization"
     ],
     "activationEvents": [
         "onCommand:hytek-peek.hytek",
@@ -46,7 +50,8 @@
             "explorer:": [
                 {
                     "id": "hytek-peek",
-                    "name": "Test View"
+                    "name": "Hytek Peek",
+                    "icon": "images/cl2.png"
                 }
             ]
         }
