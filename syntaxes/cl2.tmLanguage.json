@@ -1,0 +1,816 @@
+{
+  "scopeName": "source.cl2",
+  "repository": {
+    "tag-A0": {
+      "match": "^A0(.{1})(.{8})(.{2})(.{30})(.{20})(.{10})(.{20})(.{12})(.{8})(.{42})?(.{2})?(.{3})?",
+      "captures": {
+        "1": {
+          "name": "variable.other.constant.ts"
+        },
+        "2": {
+          "name": "string.quoted.single.ts"
+        },
+        "3": {
+          "name": "entity.name.type.class"
+        },
+        "4": {
+          "name": "keyword.control.export.ts"
+        },
+        "5": {
+          "name": "entity.name.function.ts"
+        },
+        "6": {
+          "name": "variable.other.constant.ts"
+        },
+        "7": {
+          "name": "string.quoted.single.ts"
+        },
+        "8": {
+          "name": "entity.name.type.class"
+        },
+        "9": {
+          "name": "keyword.control.export.ts"
+        },
+        "10": {
+          "name": "entity.name.function.ts"
+        },
+        "11": {
+          "name": "variable.other.constant.ts"
+        },
+        "12": {
+          "name": "string.quoted.single.ts"
+        }
+      }
+    },
+    "tag-B1": {
+      "match": "^B1(.{1})(.{8})(.{30})(.{22})(.{22})(.{20})(.{2})(.{10})(.{3})(.{2})(.{8})(.{8})(.{4})(.{8})(.{1})(.{10})?",
+      "captures": {
+        "1": {
+          "name": "variable.other.constant.ts"
+        },
+        "2": {
+          "name": "string.quoted.single.ts"
+        },
+        "3": {
+          "name": "entity.name.type.class"
+        },
+        "4": {
+          "name": "keyword.control.export.ts"
+        },
+        "5": {
+          "name": "entity.name.function.ts"
+        },
+        "6": {
+          "name": "variable.other.constant.ts"
+        },
+        "7": {
+          "name": "string.quoted.single.ts"
+        },
+        "8": {
+          "name": "entity.name.type.class"
+        },
+        "9": {
+          "name": "keyword.control.export.ts"
+        },
+        "10": {
+          "name": "entity.name.function.ts"
+        },
+        "11": {
+          "name": "variable.other.constant.ts"
+        },
+        "12": {
+          "name": "string.quoted.single.ts"
+        },
+        "13": {
+          "name": "entity.name.type.class"
+        },
+        "14": {
+          "name": "keyword.control.export.ts"
+        },
+        "15": {
+          "name": "entity.name.function.ts"
+        },
+        "16": {
+          "name": "variable.other.constant.ts"
+        }
+      }
+    },
+    "tag-B2": {
+      "match": "^B2(.{1})(.{12})(.{30})(.{22})(.{22})(.{20})(.{2})(.{10})(.{3})(.{12})(.{28})?",
+      "captures": {
+        "1": {
+          "name": "variable.other.constant.ts"
+        },
+        "2": {
+          "name": "string.quoted.single.ts"
+        },
+        "3": {
+          "name": "entity.name.type.class"
+        },
+        "4": {
+          "name": "keyword.control.export.ts"
+        },
+        "5": {
+          "name": "entity.name.function.ts"
+        },
+        "6": {
+          "name": "variable.other.constant.ts"
+        },
+        "7": {
+          "name": "string.quoted.single.ts"
+        },
+        "8": {
+          "name": "entity.name.type.class"
+        },
+        "9": {
+          "name": "keyword.control.export.ts"
+        },
+        "10": {
+          "name": "entity.name.function.ts"
+        },
+        "11": {
+          "name": "variable.other.constant.ts"
+        }
+      }
+    },
+    "tag-C1": {
+      "match": "^C1(.{1})(.{8})(.{6})(.{30})(.{16})(.{22})(.{22})(.{20})(.{2})(.{10})(.{3})(.{1})(.{6})(.{1})(.{10})?",
+      "captures": {
+        "1": {
+          "name": "variable.other.constant.ts"
+        },
+        "2": {
+          "name": "string.quoted.single.ts"
+        },
+        "3": {
+          "name": "entity.name.type.class"
+        },
+        "4": {
+          "name": "keyword.control.export.ts"
+        },
+        "5": {
+          "name": "entity.name.function.ts"
+        },
+        "6": {
+          "name": "variable.other.constant.ts"
+        },
+        "7": {
+          "name": "string.quoted.single.ts"
+        },
+        "8": {
+          "name": "entity.name.type.class"
+        },
+        "9": {
+          "name": "keyword.control.export.ts"
+        },
+        "10": {
+          "name": "entity.name.function.ts"
+        },
+        "11": {
+          "name": "variable.other.constant.ts"
+        },
+        "12": {
+          "name": "string.quoted.single.ts"
+        },
+        "13": {
+          "name": "entity.name.type.class"
+        },
+        "14": {
+          "name": "keyword.control.export.ts"
+        },
+        "15": {
+          "name": "entity.name.function.ts"
+        }
+      }
+    },
+    "tag-C2": {
+      "match": "^C2(.{1})(.{8})(.{6})(.{30})(.{12})(.{6})(.{6})(.{5})(.{6})(.{6})(.{16})(.{45})(.{1})(.{10})?",
+      "captures": {
+        "1": {
+          "name": "variable.other.constant.ts"
+        },
+        "2": {
+          "name": "string.quoted.single.ts"
+        },
+        "3": {
+          "name": "entity.name.type.class"
+        },
+        "4": {
+          "name": "keyword.control.export.ts"
+        },
+        "5": {
+          "name": "entity.name.function.ts"
+        },
+        "6": {
+          "name": "variable.other.constant.ts"
+        },
+        "7": {
+          "name": "string.quoted.single.ts"
+        },
+        "8": {
+          "name": "entity.name.type.class"
+        },
+        "9": {
+          "name": "keyword.control.export.ts"
+        },
+        "10": {
+          "name": "entity.name.function.ts"
+        },
+        "11": {
+          "name": "variable.other.constant.ts"
+        },
+        "12": {
+          "name": "string.quoted.single.ts"
+        },
+        "13": {
+          "name": "entity.name.type.class"
+        },
+        "14": {
+          "name": "keyword.control.export.ts"
+        }
+      }
+    },
+    "tag-D0": {
+      "match": "^D0(.{1})(.{8})(.{28})(.{12})(.{1})(.{3})(.{8})(.{2})(.{1})(.{1})(.{4})(.{1})(.{4})(.{4})(.{8})(.{8})(.{1})(.{8})(.{1})(.{8})(.{1})(.{8})(.{1})(.{2})(.{2})(.{2})(.{2})(.{3})(.{3})(.{4})(.{2})(.{1})",
+      "captures": {
+        "1": {
+          "name": "variable.other.constant.ts"
+        },
+        "2": {
+          "name": "string.quoted.single.ts"
+        },
+        "3": {
+          "name": "entity.name.type.class"
+        },
+        "4": {
+          "name": "keyword.control.export.ts"
+        },
+        "5": {
+          "name": "entity.name.function.ts"
+        },
+        "6": {
+          "name": "variable.other.constant.ts"
+        },
+        "7": {
+          "name": "string.quoted.single.ts"
+        },
+        "8": {
+          "name": "entity.name.type.class"
+        },
+        "9": {
+          "name": "keyword.control.export.ts"
+        },
+        "10": {
+          "name": "entity.name.function.ts"
+        },
+        "11": {
+          "name": "variable.other.constant.ts"
+        },
+        "12": {
+          "name": "string.quoted.single.ts"
+        },
+        "13": {
+          "name": "entity.name.type.class"
+        },
+        "14": {
+          "name": "keyword.control.export.ts"
+        },
+        "15": {
+          "name": "entity.name.function.ts"
+        },
+        "16": {
+          "name": "variable.other.constant.ts"
+        },
+        "17": {
+          "name": "string.quoted.single.ts"
+        },
+        "18": {
+          "name": "entity.name.type.class"
+        },
+        "19": {
+          "name": "keyword.control.export.ts"
+        },
+        "20": {
+          "name": "entity.name.function.ts"
+        },
+        "21": {
+          "name": "variable.other.constant.ts"
+        },
+        "22": {
+          "name": "string.quoted.single.ts"
+        },
+        "23": {
+          "name": "entity.name.type.class"
+        },
+        "24": {
+          "name": "keyword.control.export.ts"
+        },
+        "25": {
+          "name": "entity.name.function.ts"
+        },
+        "26": {
+          "name": "variable.other.constant.ts"
+        },
+        "27": {
+          "name": "string.quoted.single.ts"
+        },
+        "28": {
+          "name": "entity.name.type.class"
+        },
+        "29": {
+          "name": "keyword.control.export.ts"
+        },
+        "30": {
+          "name": "entity.name.function.ts"
+        },
+        "31": {
+          "name": "variable.other.constant.ts"
+        },
+        "32": {
+          "name": "string.quoted.single.ts"
+        }
+      }
+    },
+    "tag-D1": {
+      "match": "^D1(.{1})(.{8})(.{6})(.{1})(.{28})(.{1})(.{12})(.{1})(.{3})(.{8})(.{2})(.{1})(.{30})(.{20})(.{12})(.{12})(.{8})?(.{1})?(.{3})?",
+      "captures": {
+        "1": {
+          "name": "variable.other.constant.ts"
+        },
+        "2": {
+          "name": "string.quoted.single.ts"
+        },
+        "3": {
+          "name": "entity.name.type.class"
+        },
+        "4": {
+          "name": "keyword.control.export.ts"
+        },
+        "5": {
+          "name": "entity.name.function.ts"
+        },
+        "6": {
+          "name": "variable.other.constant.ts"
+        },
+        "7": {
+          "name": "string.quoted.single.ts"
+        },
+        "8": {
+          "name": "entity.name.type.class"
+        },
+        "9": {
+          "name": "keyword.control.export.ts"
+        },
+        "10": {
+          "name": "entity.name.function.ts"
+        },
+        "11": {
+          "name": "variable.other.constant.ts"
+        },
+        "12": {
+          "name": "string.quoted.single.ts"
+        },
+        "13": {
+          "name": "entity.name.type.class"
+        },
+        "14": {
+          "name": "keyword.control.export.ts"
+        },
+        "15": {
+          "name": "entity.name.function.ts"
+        },
+        "16": {
+          "name": "variable.other.constant.ts"
+        },
+        "17": {
+          "name": "string.quoted.single.ts"
+        },
+        "18": {
+          "name": "entity.name.type.class"
+        },
+        "19": {
+          "name": "keyword.control.export.ts"
+        }
+      }
+    },
+    "tag-D2": {
+      "match": "^D2(.{1})(.{8})(.{6})(.{1})(.{28})(.{30})(.{30})(.{20})(.{2})(.{12})(.{10})(.{3})?(.{1})?(.{1})?(.{1})?(.{4})?",
+      "captures": {
+        "1": {
+          "name": "variable.other.constant.ts"
+        },
+        "2": {
+          "name": "string.quoted.single.ts"
+        },
+        "3": {
+          "name": "entity.name.type.class"
+        },
+        "4": {
+          "name": "keyword.control.export.ts"
+        },
+        "5": {
+          "name": "entity.name.function.ts"
+        },
+        "6": {
+          "name": "variable.other.constant.ts"
+        },
+        "7": {
+          "name": "string.quoted.single.ts"
+        },
+        "8": {
+          "name": "entity.name.type.class"
+        },
+        "9": {
+          "name": "keyword.control.export.ts"
+        },
+        "10": {
+          "name": "entity.name.function.ts"
+        },
+        "11": {
+          "name": "variable.other.constant.ts"
+        },
+        "12": {
+          "name": "string.quoted.single.ts"
+        },
+        "13": {
+          "name": "entity.name.type.class"
+        },
+        "14": {
+          "name": "keyword.control.export.ts"
+        },
+        "15": {
+          "name": "entity.name.function.ts"
+        },
+        "16": {
+          "name": "variable.other.constant.ts"
+        }
+      }
+    },
+    "tag-D3": {
+      "match": "^D3(.{14})(.{15})(.{2})(.{1})(.{1})(.{1})(.{1})(.{1})(.{1})(.{1})(.{1})(.{1})(.{118})?",
+      "captures": {
+        "1": {
+          "name": "variable.other.constant.ts"
+        },
+        "2": {
+          "name": "string.quoted.single.ts"
+        },
+        "3": {
+          "name": "entity.name.type.class"
+        },
+        "4": {
+          "name": "keyword.control.export.ts"
+        },
+        "5": {
+          "name": "entity.name.function.ts"
+        },
+        "6": {
+          "name": "variable.other.constant.ts"
+        },
+        "7": {
+          "name": "string.quoted.single.ts"
+        },
+        "8": {
+          "name": "entity.name.type.class"
+        },
+        "9": {
+          "name": "keyword.control.export.ts"
+        },
+        "10": {
+          "name": "entity.name.function.ts"
+        },
+        "11": {
+          "name": "variable.other.constant.ts"
+        },
+        "12": {
+          "name": "string.quoted.single.ts"
+        },
+        "13": {
+          "name": "entity.name.type.class"
+        }
+      }
+    },
+    "tag-E0": {
+      "match": "^E0(.{1})(.{8})(.{1})(.{6})(.{2})(.{1})(.{4})(.{1})(.{4})(.{4})(.{3})(.{8})(.{8})(.{1})(.{8})(.{1})(.{8})(.{1})(.{8})(.{1})(.{2})(.{2})(.{2})(.{2})(.{3})(.{3})(.{4})(.{2})(.{59})?",
+      "captures": {
+        "1": {
+          "name": "variable.other.constant.ts"
+        },
+        "2": {
+          "name": "string.quoted.single.ts"
+        },
+        "3": {
+          "name": "entity.name.type.class"
+        },
+        "4": {
+          "name": "keyword.control.export.ts"
+        },
+        "5": {
+          "name": "entity.name.function.ts"
+        },
+        "6": {
+          "name": "variable.other.constant.ts"
+        },
+        "7": {
+          "name": "string.quoted.single.ts"
+        },
+        "8": {
+          "name": "entity.name.type.class"
+        },
+        "9": {
+          "name": "keyword.control.export.ts"
+        },
+        "10": {
+          "name": "entity.name.function.ts"
+        },
+        "11": {
+          "name": "variable.other.constant.ts"
+        },
+        "12": {
+          "name": "string.quoted.single.ts"
+        },
+        "13": {
+          "name": "entity.name.type.class"
+        },
+        "14": {
+          "name": "keyword.control.export.ts"
+        },
+        "15": {
+          "name": "entity.name.function.ts"
+        },
+        "16": {
+          "name": "variable.other.constant.ts"
+        },
+        "17": {
+          "name": "string.quoted.single.ts"
+        },
+        "18": {
+          "name": "entity.name.type.class"
+        },
+        "19": {
+          "name": "keyword.control.export.ts"
+        },
+        "20": {
+          "name": "entity.name.function.ts"
+        },
+        "21": {
+          "name": "variable.other.constant.ts"
+        },
+        "22": {
+          "name": "string.quoted.single.ts"
+        },
+        "23": {
+          "name": "entity.name.type.class"
+        },
+        "24": {
+          "name": "keyword.control.export.ts"
+        },
+        "25": {
+          "name": "entity.name.function.ts"
+        },
+        "26": {
+          "name": "variable.other.constant.ts"
+        },
+        "27": {
+          "name": "string.quoted.single.ts"
+        },
+        "28": {
+          "name": "entity.name.type.class"
+        },
+        "29": {
+          "name": "keyword.control.export.ts"
+        }
+      }
+    },
+    "tag-F0": {
+      "match": "^F0(.{1})(.{12})(.{6})(.{1})(.{28})(.{12})(.{3})(.{8})(.{2})(.{1})(.{1})(.{1})(.{1})(.{8})(.{1})(.{4})(.{14})(.{15})(.{39})?",
+      "captures": {
+        "1": {
+          "name": "variable.other.constant.ts"
+        },
+        "2": {
+          "name": "string.quoted.single.ts"
+        },
+        "3": {
+          "name": "entity.name.type.class"
+        },
+        "4": {
+          "name": "keyword.control.export.ts"
+        },
+        "5": {
+          "name": "entity.name.function.ts"
+        },
+        "6": {
+          "name": "variable.other.constant.ts"
+        },
+        "7": {
+          "name": "string.quoted.single.ts"
+        },
+        "8": {
+          "name": "entity.name.type.class"
+        },
+        "9": {
+          "name": "keyword.control.export.ts"
+        },
+        "10": {
+          "name": "entity.name.function.ts"
+        },
+        "11": {
+          "name": "variable.other.constant.ts"
+        },
+        "12": {
+          "name": "string.quoted.single.ts"
+        },
+        "13": {
+          "name": "entity.name.type.class"
+        },
+        "14": {
+          "name": "keyword.control.export.ts"
+        },
+        "15": {
+          "name": "entity.name.function.ts"
+        },
+        "16": {
+          "name": "variable.other.constant.ts"
+        },
+        "17": {
+          "name": "string.quoted.single.ts"
+        },
+        "18": {
+          "name": "entity.name.type.class"
+        },
+        "19": {
+          "name": "keyword.control.export.ts"
+        }
+      }
+    },
+    "tag-G0": {
+      "match": "^G0(.{1})(.{12})(.{28})(.{12})(.{1})(.{2})(.{4})(.{1})(.{8})(.{8})(.{8})(.{8})(.{8})(.{8})(.{8})(.{8})(.{8})(.{8})(.{1})(.{16})?",
+      "captures": {
+        "1": {
+          "name": "variable.other.constant.ts"
+        },
+        "2": {
+          "name": "string.quoted.single.ts"
+        },
+        "3": {
+          "name": "entity.name.type.class"
+        },
+        "4": {
+          "name": "keyword.control.export.ts"
+        },
+        "5": {
+          "name": "entity.name.function.ts"
+        },
+        "6": {
+          "name": "variable.other.constant.ts"
+        },
+        "7": {
+          "name": "string.quoted.single.ts"
+        },
+        "8": {
+          "name": "entity.name.type.class"
+        },
+        "9": {
+          "name": "keyword.control.export.ts"
+        },
+        "10": {
+          "name": "entity.name.function.ts"
+        },
+        "11": {
+          "name": "variable.other.constant.ts"
+        },
+        "12": {
+          "name": "string.quoted.single.ts"
+        },
+        "13": {
+          "name": "entity.name.type.class"
+        },
+        "14": {
+          "name": "keyword.control.export.ts"
+        },
+        "15": {
+          "name": "entity.name.function.ts"
+        },
+        "16": {
+          "name": "variable.other.constant.ts"
+        },
+        "17": {
+          "name": "string.quoted.single.ts"
+        },
+        "18": {
+          "name": "entity.name.type.class"
+        },
+        "19": {
+          "name": "keyword.control.export.ts"
+        },
+        "20": {
+          "name": "entity.name.function.ts"
+        }
+      }
+    },
+    "tag-Z0": {
+      "match": "^Z0(.{1})(.{8})(.{2})(.{30})(.{3})(.{3})(.{4})(.{4})(.{6})(.{6})(.{5})(.{6})(.{6})(.{5})(.{3})(.{3})(.{3})(.{3})(.{57})?",
+      "captures": {
+        "1": {
+          "name": "variable.other.constant.ts"
+        },
+        "2": {
+          "name": "string.quoted.single.ts"
+        },
+        "3": {
+          "name": "entity.name.type.class"
+        },
+        "4": {
+          "name": "keyword.control.export.ts"
+        },
+        "5": {
+          "name": "entity.name.function.ts"
+        },
+        "6": {
+          "name": "variable.other.constant.ts"
+        },
+        "7": {
+          "name": "string.quoted.single.ts"
+        },
+        "8": {
+          "name": "entity.name.type.class"
+        },
+        "9": {
+          "name": "keyword.control.export.ts"
+        },
+        "10": {
+          "name": "entity.name.function.ts"
+        },
+        "11": {
+          "name": "variable.other.constant.ts"
+        },
+        "12": {
+          "name": "string.quoted.single.ts"
+        },
+        "13": {
+          "name": "entity.name.type.class"
+        },
+        "14": {
+          "name": "keyword.control.export.ts"
+        },
+        "15": {
+          "name": "entity.name.function.ts"
+        },
+        "16": {
+          "name": "variable.other.constant.ts"
+        },
+        "17": {
+          "name": "string.quoted.single.ts"
+        },
+        "18": {
+          "name": "entity.name.type.class"
+        },
+        "19": {
+          "name": "keyword.control.export.ts"
+        }
+      }
+    }
+  },
+  "patterns": [
+    {
+      "include": "#tag-A0"
+    },
+    {
+      "include": "#tag-B1"
+    },
+    {
+      "include": "#tag-B2"
+    },
+    {
+      "include": "#tag-C1"
+    },
+    {
+      "include": "#tag-C2"
+    },
+    {
+      "include": "#tag-D0"
+    },
+    {
+      "include": "#tag-D1"
+    },
+    {
+      "include": "#tag-D2"
+    },
+    {
+      "include": "#tag-D3"
+    },
+    {
+      "include": "#tag-E0"
+    },
+    {
+      "include": "#tag-F0"
+    },
+    {
+      "include": "#tag-G0"
+    },
+    {
+      "include": "#tag-Z0"
+    }
+  ]
+}
